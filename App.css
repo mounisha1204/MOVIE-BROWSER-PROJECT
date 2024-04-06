@@ -1,0 +1,17 @@
+.movie-backdrop {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Ensure the background image covers the entire container */
+}
+.container{
+    background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    opacity: 0.8;
+    color: white;
+  }
+
+  
+  

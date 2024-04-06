@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgb(0, 0, 0, 0.8) 100%),
+                      url("https://assets.nflxext.com/ffe/siteui/vlv3/85e22987-d2dd-46ca-b8b7-65cd0e31c24a/629ae878-26a7-4d88-b12b-af5018a1f7b2/US-en-20201123-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    animation: pic2 7s ease-in-out infinite alternate-reverse;
+
+    background-size: cover; /* Adjust to 'contain' if you want the entire image to be visible */
+    background-position: center;
+}
+
+@keyframes pic2 {
+    0% {
+        left: 0;
+        background-image:   linear-gradient(to top,
+                            rgba(0, 0, 0, 0.8) 0,
+                            rgba(0,0,0,0)60%,
+                            rgb(0,0,0,0.8)100%),
+                        url("https://assets.nflxext.com/ffe/siteui/vlv3/85e22987-d2dd-46ca-b8b7-65cd0e31c24a/629ae878-26a7-4d88-b12b-af5018a1f7b2/US-en-20201123-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+                        
+       
+    }
+    100% {
+        left: 50%;
+        background-image:   linear-gradient(to top,
+                            rgba(0, 0, 0, 0.8) 0,
+                            rgba(0,0,0,0)60%,
+                            rgb(0,0,0,0.8)100%),
+                        url("https://i.pinimg.com/736x/e4/a5/ff/e4a5ff54968e04c1c4da9c6ea9e5ceac.jpg");
+                        
+        
+    }
+    
+    
+}
+
+.h2{
+    color:white;
+    margin-top:280px;
+    text-align: center;
+    
+    font-size: 40px;
+}
+.h3{
+    text-align: center;
+    color:white;
+}
+
+.class1{
+    position: relative;
+}
+.class2{
+    position:absolute;
+    top:15px;
+    left:640px;
+    
+    
+}
+.class3{
+    width:220px;
+    height: 50px;
+    
+    
+    background-color: rgb(223, 75, 75);
+}
